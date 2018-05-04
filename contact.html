@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="main.css">
+        <script type="text/javascript" src = "functions.js"></script>
+		<title>SDS Contact</title>
+	</head>
+
+
+	
+	<body onload="slideImages()">
+	<div id="homebox">
+    <div id="mainbar">
+        <table class="task">
+            <tr>
+                <td align="center"><a href="index.html" alt="">Home</a></td>
+                <td align="center"><a href="about.html" alt="">About</a></td>
+                <td align="center"><a href="services.html" alt="">Services</a></td>
+                <td align="center"><a href="location.html" alt="">Location</a></td>
+                <td align="center"><a href="contact.html" alt="">Contact Us</a></td>
+                <td align="center"><a href="help.html" alt="">Help</a></td>
+            </tr>
+        </table>
+    </div>
+
+	<div id="alignright">
+
+	
+        <div class="inner">
+            <h1>Contact Us</h1>
+            <p>If you would like to join our start-up or would like to inquire on our services fill out the information below and we will get back to you!</p>
+            
+            <form name="contactus" method="post" onsubmit=" return formValidation()">
+                <input type="hidden">
+                
+                <center>
+                    <table>
+                        <tr>
+                            <td><label style="font-size: 12pt; font-weight: bold">First Name: </label></td>
+                            <td><input type="text" name="first" placeholder="First name" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td><label style="font-size: 12pt; font-weight: bold">Last Name: </label></td>
+                            <td><input type="text" name="last" placeholder="Last name" size="20"></td>
+                        </tr>
+                        <tr>
+                            <td><label style="font-size: 12pt; font-weight: bold">Email: </label></td>
+                            <td><input type="text" name="email" placeholder="name@domain.com" size="20"></td>
+                        </tr>
+                        
+                        
+                    </table>
+                </center>
+
+                <p>
+                
+            
+                <center>
+                    <input type="submit" value="Submit"><input type="reset" value="Clear">
+                </center>
+
+            </form>
+
+        </div>
+
+	</div>
+
+	
+	<div id="alignleft">
+
+        <div class="inner">
+            <div class="board">Executives</div>
+            <ul>
+                <li><em>Jobin Thomas</em><br>
+                    <em>CEO</em></li><br>
+                <li><em>Jithin Thomas</em><br>
+                    <em>Lead Cloud Architect</em></li><br>
+                <li><em>Isai Perez</em><br>
+                    <em>Marketing Director</em></li><br>
+                <li><em>Preston John</em><br>
+                    <em>Lead Data Scientist</em></li>
+            </ul>
+        </div>
+        <br>
+        
+            <br>
+        </div>
+<div >
+                <img style="margin-left:auto; margin-right:auto; margin-top: 20px;" id = "slidepics" src = "images/signalProcessing.jpg" alt = "slideview" width="400px" height="265px">
+            </div>
+	</div>
+	</div>
+        
+	</body>
+
+</html>
